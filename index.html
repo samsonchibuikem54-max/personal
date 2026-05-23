@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-slate-950 text-white">
+
+    <!-- NAVBAR -->
+
+    <header class="fixed w-full top-0 left-0 z-50 bg-gray-900 shadow-lg">
+
+        <nav class="w-[90%] mx-auto flex justify-between items-center py-5">
+
+            <div class="flex items-center gap-3">
+
+                <img src="img/logo.png" alt="Samzzy"
+                    class="w-12 h-12 rounded-full object-cover border-2 border-cyan-400">
+
+                <h2 class="text-cyan-400 text-2xl font-bold">Samzzy.dev</h2>
+
+            </div>
+
+            <ul class="flex list-none gap-6">
+
+                <li><a href="#home" class="text-white hover:text-cyan-400 transition-colors duration-300">Home</a></li>
+
+                <li><a href="#about" class="text-white hover:text-cyan-400 transition-colors duration-300">About</a>
+                </li>
+
+                <li><a href="#skills" class="text-white hover:text-cyan-400 transition-colors duration-300">Skills</a>
+                </li>
+
+                <li><a href="#projects"
+                        class="text-white hover:text-cyan-400 transition-colors duration-300">Projects</a></li>
+
+                <li><a href="#resume" class="text-white hover:text-cyan-400 transition-colors duration-300">Resume</a>
+                </li>
+
+                <li><a href="#contact" class="text-white hover:text-cyan-400 transition-colors duration-300">Contact</a>
+                </li>
+
+            </ul>
+
+            <a href="#contact"
+                class="inline-block px-7 py-3 bg-cyan-400 text-white font-semibold rounded-full hover:bg-cyan-500 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50 transform hover:-translate-y-1">
+                Hire Me
+            </a>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section
+        class="min-h-screen flex justify-center items-center text-center px-5 py-24 bg-gradient-to-r from-slate-950 to-slate-800 pt-32"
+        id="home">
+
+        <div class="max-w-3xl">
+
+            <h1 class="text-5xl font-bold mb-4">Hello, I'm <span class="text-cyan-400">Samson Chibuikem</span></h1>
+
+            <h3 class="text-3xl font-semibold my-4 text-white">Frontend Web Developer</h3>
+
+            <p class="max-w-2xl mx-auto mb-8 text-gray-300 leading-relaxed">
+                Passionate about creating modern and responsive web applications with clean user interfaces, smooth
+                animations, and engaging user experiences. I enjoy turning ideas into interactive digital solutions
+                using HTML, CSS, JavaScript, React, and Tailwind CSS while constantly exploring new technologies and
+                improving my frontend development skills.
+            </p>
+
+            <a href="#projects"
+                class="inline-block px-7 py-4 bg-cyan-400 text-white font-semibold rounded-lg hover:bg-cyan-500 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">View
+                Projects</a>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="py-24 px-10 lg:px-[10%]" id="about">
+
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-bold text-cyan-400">About Me</h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <img src="./img/samzzy.png" alt="Profile Image"
+                    class="w-full max-w-md h-auto rounded-3xl object-cover mx-auto block">
+            </div>
+
+            <div>
+
+                <p class="mb-5 text-gray-300 leading-relaxed">
+                    I am a passionate Frontend Developer who enjoys building responsive, modern, and user-friendly web
+                    applications using HTML, CSS, JavaScript, React, and Tailwind CSS.
+
+                    I focus on creating clean interfaces, smooth user experiences, and responsive designs that work
+                    perfectly across different devices and screen sizes.
+
+                    I enjoy turning ideas into interactive digital experiences while continuously learning modern web
+                    technologies and improving my development skills.
+                </p>
+
+                <p class="mb-8 text-gray-300 leading-relaxed">
+                    I am always eager to learn, explore new technologies,
+                    and take on exciting frontend development challenges.
+                </p>
+
+                <a href="img/Samson_chibuikem_joel_CV.pdf"
+                    class="inline-block px-7 py-4 bg-cyan-400 text-white font-semibold rounded-lg hover:bg-cyan-500 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                    download>Download CV</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RESUME SECTION -->
+
+    <section class="py-24 px-10 lg:px-[10%] bg-slate-900 text-center" id="resume">
+
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-bold text-white mb-5 relative inline-block">Resume
+                <div class="w-20 h-1 bg-cyan-400 absolute left-1/2 transform -translate-x-1/2 -bottom-3 rounded-full">
+                </div>
+            </h2>
+        </div>
+
+        <div class="mt-16 max-w-2xl mx-auto">
+
+            <p class="text-gray-400 text-lg mb-9 leading-relaxed">
+                Download my resume to learn more about my
+                experience, skills, and projects.
+            </p>
+
+            <a href="img/Samson_chibuikem_joel_CV.pdf"
+                class="inline-block px-10 py-4 bg-cyan-400 text-white text-lg font-semibold rounded-full hover:bg-cyan-500 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50 transform hover:-translate-y-1"
+                download>
+                Download Resume
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section class="py-24 px-10 lg:px-[10%]" id="skills">
+
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-bold text-cyan-400">My Skills</h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-brands fa-html5 text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">HTML5</h3>
+                <p class="text-gray-400">Building well-structured and semantic web pages.</p>
+            </div>
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-brands fa-css3-alt text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">CSS3</h3>
+                <p class="text-gray-400">Creating responsive layouts and modern designs.</p>
+            </div>
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-brands fa-js text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">JavaScript</h3>
+                <p class="text-gray-400">Adding interactivity and dynamic website features.</p>
+            </div>
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-brands fa-react text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">React</h3>
+                <p class="text-gray-400">Developing reusable and interactive UI components.</p>
+            </div>
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-solid fa-wind text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">Tailwind CSS</h3>
+                <p class="text-gray-400">Designing fast and modern user interfaces efficiently.</p>
+            </div>
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-brands fa-github text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">GitHub</h3>
+                <p class="text-gray-400">Managing projects and version control professionally.</p>
+            </div>
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-solid fa-mobile-screen text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">Responsive Design</h3>
+                <p class="text-gray-400">Ensuring websites work perfectly on all devices.</p>
+            </div>
+
+            <div class="bg-slate-800 p-10 text-center rounded-2xl hover:-translate-y-3 transition-all duration-300">
+                <i class="fa-solid fa-wand-magic-sparkles text-6xl text-cyan-400 mb-5 block"></i>
+                <h3 class="text-xl font-bold mb-3">Web Animations</h3>
+                <p class="text-gray-400">Creating smooth transitions and engaging interactions.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS SECTION -->
+
+    <section class="py-24 px-10 lg:px-[10%]" id="projects">
+
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-bold text-cyan-400">Projects</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- PROJECT 1 -->
+
+            <div class="bg-slate-800 rounded-2xl overflow-hidden hover:-translate-y-3 transition-all duration-300">
+
+                <div class="w-full h-64 overflow-hidden rounded-t-2xl">
+                    <img src="./img/pp.png" class="w-full h-full object-cover" alt="Scientific Calculator">
+                </div>
+
+                <div class="p-5">
+
+                    <h3 class="text-2xl font-bold mb-4">Advanced Scientific Calculator</h3>
+
+                    <p class="text-gray-400 mb-5 leading-relaxed">
+                        A responsive scientific calculator built using
+                        HTML, CSS, and JavaScript with advanced mathematical
+                        functions and modern UI design.
+                    </p>
+
+                    <span class="text-cyan-400 mb-5 block">
+                        HTML • CSS • JavaScript
+                    </span>
+
+                    <a href="#"
+                        class="inline-block px-5 py-2 bg-cyan-400 text-white font-semibold rounded-lg hover:bg-cyan-500 transition-all duration-300">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <div class="bg-slate-800 rounded-2xl overflow-hidden hover:-translate-y-3 transition-all duration-300">
+
+                <div class="w-full h-64 overflow-hidden rounded-t-2xl">
+                    <img src="./img/protfolio.png" class="w-full h-full object-cover" alt="Portfolio Website">
+                </div>
+
+                <div class="p-5">
+
+                    <h3 class="text-2xl font-bold mb-4">Modern Portfolio Website</h3>
+
+                    <p class="text-gray-400 mb-5 leading-relaxed">
+                        A modern and responsive personal portfolio website
+                        showcasing projects, skills, and frontend development
+                        experience.
+                    </p>
+
+                    <span class="text-cyan-400 mb-5 block">
+                        HTML • CSS • JavaScript
+                    </span>
+
+                    <a href="#"
+                        class="inline-block px-5 py-2 bg-cyan-400 text-white font-semibold rounded-lg hover:bg-cyan-500 transition-all duration-300">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 3 -->
+
+            <div class="bg-slate-800 rounded-2xl overflow-hidden hover:-translate-y-3 transition-all duration-300">
+
+                <div class="w-full h-64 overflow-hidden rounded-t-2xl">
+                    <img src="./img/Aiface.png" class="w-full h-full object-cover" alt="GPA System">
+                </div>
+
+                <div class="p-5">
+
+                    <h3 class="text-2xl font-bold mb-4">AI-Based GPA System</h3>
+
+                    <p class="text-gray-400 mb-5 leading-relaxed">
+                        A GPA and CGPA calculation system designed to help
+                        students calculate academic performance efficiently
+                        using JavaScript logic.
+                    </p>
+
+                    <span class="text-cyan-400 mb-5 block">
+                        HTML • CSS • JavaScript
+                    </span>
+
+                    <a href="#"
+                        class="inline-block px-5 py-2 bg-cyan-400 text-white font-semibold rounded-lg hover:bg-cyan-500 transition-all duration-300">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="py-24 px-10 lg:px-[10%]" id="contact">
+
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-bold text-cyan-400">Contact Me</h2>
+        </div>
+
+        <div class="max-w-2xl mx-auto">
+
+            <form class="flex flex-col gap-5">
+
+                <input type="text" placeholder="Your Name" required
+                    class="px-4 py-4 border-none rounded-lg outline-none bg-slate-800 text-white placeholder-gray-500">
+
+                <input type="email" placeholder="Your Email" required
+                    class="px-4 py-4 border-none rounded-lg outline-none bg-slate-800 text-white placeholder-gray-500">
+
+                <textarea rows="6" placeholder="Your Message"
+                    class="px-4 py-4 border-none rounded-lg outline-none bg-slate-800 text-white placeholder-gray-500 resize-none"></textarea>
+
+                <button type="submit"
+                    class="px-7 py-4 bg-cyan-400 text-white font-semibold rounded-lg hover:bg-cyan-500 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">Send
+                    Message</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- SOCIAL LINKS -->
+
+    <section class="py-10 px-10 bg-slate-950 text-center">
+
+        <div class="flex justify-center gap-6 flex-wrap">
+
+            <a href="https://github.com/samsonchibuikem54-max" target="_blank"
+                class="w-16 h-16 flex justify-center items-center bg-slate-800 rounded-full text-white text-2xl hover:-translate-y-2 hover:scale-110 hover:bg-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/samson-chibuikem-94490a3b9/" target="_blank"
+                class="w-16 h-16 flex justify-center items-center bg-slate-800 rounded-full text-white text-2xl hover:-translate-y-2 hover:scale-110 hover:bg-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://wa.me/2349040533828" target="_blank"
+                class="w-16 h-16 flex justify-center items-center bg-slate-800 rounded-full text-white text-2xl hover:-translate-y-2 hover:scale-110 hover:bg-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://facebook.com/" target="_blank"
+                class="w-16 h-16 flex justify-center items-center bg-slate-800 rounded-full text-white text-2xl hover:-translate-y-2 hover:scale-110 hover:bg-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/50">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-gray-900 text-center py-7">
+
+        <p class="text-gray-400">
+            © 2026 My Portfolio | All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
